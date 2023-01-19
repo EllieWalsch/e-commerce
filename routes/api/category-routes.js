@@ -15,6 +15,7 @@ router.get('/', async (req, res) => {
   // Find all categories including their associated products
 });
 
+
 router.get('/:id', async (req, res) => {
   try {
     const categoryData = await Category.findByPk(req.params.id, {
@@ -46,6 +47,7 @@ router.post('/', async (req, res) => {
   // Create a new category
 });
 
+
 router.put('/:id', async (req, res) => {
   try {
     const categoryData = await Category.update(req.body, {
@@ -64,6 +66,7 @@ router.put('/:id', async (req, res) => {
   }
   // Update a category by its id value
 });
+
 
 router.delete('/:id', async (req, res) => {
   try {
