@@ -12,6 +12,6 @@ First, download the repo. Open the terminal and make sure you're in the "e-comme
 
 Use Insomnia to run get, post, put, and delete requests to the database! [Click here for a walkthrough video.](https://drive.google.com/file/d/1wPx0IpHw626o56L6p0Kxgu8na97tMJup/view)
 
-![Insomnia showing routes to e-commerce](assets/e-commerce.png)
+![Insomnia showing routes to e-commerce](./Assets/e-commerce.png)
 
 
